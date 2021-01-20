@@ -7,7 +7,7 @@ import socket
 import sys
 from urllib.parse import urlencode, quote_plus
 
-# Set Log Levels
+# Log Levels
 logging.getLogger().addHandler(logging.StreamHandler())
 root = logging.getLogger()
 root.setLevel(logging.INFO)
